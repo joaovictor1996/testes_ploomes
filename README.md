@@ -12,5 +12,8 @@
 3. Executar o comando: npm install cypress --save-dev
 4. Executar o comando: npx cypress open
 
+# Caminho para o arquivo de teste:
+/main/cypress/e2e/TESTE
+
 # Bugs e Melhorias:
 Durante os testes foi observado que para cadastrar um Cliente ou um novo Negócio, foi visto que existem etapas de cadastramento de cargos e empresas, para cadastrar é aberto um modal ao lado que possui um botão "salvar". Os botões "salvar" possuem as mesmas características, mesma classe, mesmo nome, e isso dificulta os testes automatizados, pois o cypress precisa saber com certeza em qual elemento da página ele deve executar uma ação.
